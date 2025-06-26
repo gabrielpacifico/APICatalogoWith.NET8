@@ -1,0 +1,846 @@
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 20101 - Executed DbCommand (18ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+WHERE `c`.`CategoriaId` = @__id_0
+LIMIT 1
+Information: 20101 - Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+WHERE `p`.`ProdutoId` = @__id_0
+LIMIT 1
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (32ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+WHERE `c`.`CategoriaId` = @__id_0
+LIMIT 1
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Error: 0 - Ocorreu uma exceção não tratada.
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (49ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 20101 - Executed DbCommand (22ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+WHERE `c`.`CategoriaId` = @__id_0
+LIMIT 1
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+WHERE `c`.`CategoriaId` = @__id_0
+LIMIT 1
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+WHERE `c`.`CategoriaId` = @__id_0
+LIMIT 1
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+WHERE `c`.`CategoriaId` = @__id_0
+LIMIT 1
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (25ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 20101 - Executed DbCommand (29ms) [Parameters=[@p0='?' (Size = 300), @p1='?' (Size = 80)], CommandType='Text', CommandTimeout='30']
+INSERT INTO `Categorias` (`ImagemUrl`, `Nome`)
+VALUES (@p0, @p1);
+SELECT `CategoriaId`
+FROM `Categorias`
+WHERE ROW_COUNT() = 1 AND `CategoriaId` = LAST_INSERT_ID();
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 20101 - Executed DbCommand (567ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (Size = 300), @p1='?' (Size = 80)], CommandType='Text', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+UPDATE `Categorias` SET `ImagemUrl` = @p0, `Nome` = @p1
+WHERE `CategoriaId` = @p2;
+SELECT ROW_COUNT();
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+WHERE `c`.`CategoriaId` = @__id_0
+LIMIT 1
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+WHERE `c`.`CategoriaId` = @__id_0
+LIMIT 1
+Information: 20101 - Executed DbCommand (355ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+DELETE FROM `Categorias`
+WHERE `CategoriaId` = @p0;
+SELECT ROW_COUNT();
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Error: 0 - Ocorreu uma exceção não tratada.
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (40ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (23ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 20101 - Executed DbCommand (30ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime), @p2='?' (Size = 300), @p3='?' (DbType = Single), @p4='?' (Size = 300), @p5='?' (Size = 80), @p6='?' (DbType = Decimal)], CommandType='Text', CommandTimeout='30']
+INSERT INTO `Produtos` (`CategoriaId`, `DataCadastro`, `Descricao`, `Estoque`, `ImagemUrl`, `Nome`, `Preco`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+SELECT `ProdutoId`
+FROM `Produtos`
+WHERE ROW_COUNT() = 1 AND `ProdutoId` = LAST_INSERT_ID();
+Information: 20101 - Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+WHERE `p`.`ProdutoId` = @__p_0
+LIMIT 1
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+WHERE `p`.`Nome` = 'batata'
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+WHERE `p`.`Nome` = 'batata'
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+WHERE `p`.`Nome` = 'Batata'
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+WHERE `p`.`Nome` = 'Batata frita'
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (13ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+WHERE `c`.`CategoriaId` = @__id_0
+LIMIT 1
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (19ms) [Parameters=[@p0='?' (Size = 300), @p1='?' (Size = 80)], CommandType='Text', CommandTimeout='30']
+INSERT INTO `Categorias` (`ImagemUrl`, `Nome`)
+VALUES (@p0, @p1);
+SELECT `CategoriaId`
+FROM `Categorias`
+WHERE ROW_COUNT() = 1 AND `CategoriaId` = LAST_INSERT_ID();
+Information: 20101 - Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+WHERE `c`.`CategoriaId` = @__id_0
+LIMIT 1
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+WHERE `c`.`CategoriaId` = @__id_0
+LIMIT 1
+Information: 20101 - Executed DbCommand (357ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (Size = 300), @p1='?' (Size = 80)], CommandType='Text', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+UPDATE `Categorias` SET `ImagemUrl` = @p0, `Nome` = @p1
+WHERE `CategoriaId` = @p2;
+SELECT ROW_COUNT();
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+WHERE `c`.`CategoriaId` = @__id_0
+LIMIT 1
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+WHERE `c`.`CategoriaId` = @__id_0
+LIMIT 1
+Information: 20101 - Executed DbCommand (258ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+DELETE FROM `Categorias`
+WHERE `CategoriaId` = @p0;
+SELECT ROW_COUNT();
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime), @p2='?' (Size = 300), @p3='?' (DbType = Single), @p4='?' (Size = 300), @p5='?' (Size = 80), @p6='?' (DbType = Decimal)], CommandType='Text', CommandTimeout='30']
+INSERT INTO `Produtos` (`CategoriaId`, `DataCadastro`, `Descricao`, `Estoque`, `ImagemUrl`, `Nome`, `Preco`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+SELECT `ProdutoId`
+FROM `Produtos`
+WHERE ROW_COUNT() = 1 AND `ProdutoId` = LAST_INSERT_ID();
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+WHERE `p`.`ProdutoId` = @__id_0
+LIMIT 1
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+WHERE `p`.`ProdutoId` = @__id_0
+LIMIT 1
+Information: 20101 - Executed DbCommand (232ms) [Parameters=[@p7='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (DbType = DateTime), @p2='?' (Size = 300), @p3='?' (DbType = Single), @p4='?' (Size = 300), @p5='?' (Size = 80), @p6='?' (DbType = Decimal)], CommandType='Text', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+UPDATE `Produtos` SET `CategoriaId` = @p0, `DataCadastro` = @p1, `Descricao` = @p2, `Estoque` = @p3, `ImagemUrl` = @p4, `Nome` = @p5, `Preco` = @p6
+WHERE `ProdutoId` = @p7;
+SELECT ROW_COUNT();
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+WHERE `p`.`ProdutoId` = @__id_0
+LIMIT 1
+Information: 20101 - Executed DbCommand (368ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+DELETE FROM `Produtos`
+WHERE `ProdutoId` = @p0;
+SELECT ROW_COUNT();
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Error: 1 - An unhandled exception has occurred while executing the request.
+Error: 1 - An unhandled exception has occurred while executing the request.
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (11ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (80ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 20101 - Executed DbCommand (31ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+WHERE `c`.`CategoriaId` = @__id_0
+LIMIT 1
+Information: 20101 - Executed DbCommand (18ms) [Parameters=[@p0='?' (Size = 300), @p1='?' (Size = 80)], CommandType='Text', CommandTimeout='30']
+INSERT INTO `Categorias` (`ImagemUrl`, `Nome`)
+VALUES (@p0, @p1);
+SELECT `CategoriaId`
+FROM `Categorias`
+WHERE ROW_COUNT() = 1 AND `CategoriaId` = LAST_INSERT_ID();
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+WHERE `c`.`CategoriaId` = @__id_0
+LIMIT 1
+Information: 20101 - Executed DbCommand (122ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+DELETE FROM `Categorias`
+WHERE `CategoriaId` = @p0;
+SELECT ROW_COUNT();
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Error: 0 - Ocorreu uma exceção não tratada.
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (13ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 20101 - Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (15ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+WHERE `c`.`CategoriaId` = @__id_0
+LIMIT 1
+Information: 20101 - Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 300), @p1='?' (Size = 80)], CommandType='Text', CommandTimeout='30']
+INSERT INTO `Categorias` (`ImagemUrl`, `Nome`)
+VALUES (@p0, @p1);
+SELECT `CategoriaId`
+FROM `Categorias`
+WHERE ROW_COUNT() = 1 AND `CategoriaId` = LAST_INSERT_ID();
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 20101 - Executed DbCommand (516ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?' (Size = 300), @p1='?' (Size = 80)], CommandType='Text', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+UPDATE `Categorias` SET `ImagemUrl` = @p0, `Nome` = @p1
+WHERE `CategoriaId` = @p2;
+SELECT ROW_COUNT();
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+WHERE `c`.`CategoriaId` = @__id_0
+LIMIT 1
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+WHERE `c`.`CategoriaId` = @__id_0
+LIMIT 1
+Information: 20101 - Executed DbCommand (907ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+DELETE FROM `Categorias`
+WHERE `CategoriaId` = @p0;
+SELECT ROW_COUNT();
+Information: 20101 - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (11ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime), @p2='?' (Size = 300), @p3='?' (DbType = Single), @p4='?' (Size = 300), @p5='?' (Size = 80), @p6='?' (DbType = Decimal)], CommandType='Text', CommandTimeout='30']
+INSERT INTO `Produtos` (`CategoriaId`, `DataCadastro`, `Descricao`, `Estoque`, `ImagemUrl`, `Nome`, `Preco`)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6);
+SELECT `ProdutoId`
+FROM `Produtos`
+WHERE ROW_COUNT() = 1 AND `ProdutoId` = LAST_INSERT_ID();
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (550ms) [Parameters=[@p7='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (DbType = DateTime), @p2='?' (Size = 300), @p3='?' (DbType = Single), @p4='?' (Size = 300), @p5='?' (Size = 80), @p6='?' (DbType = Decimal)], CommandType='Text', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+UPDATE `Produtos` SET `CategoriaId` = @p0, `DataCadastro` = @p1, `Descricao` = @p2, `Estoque` = @p3, `ImagemUrl` = @p4, `Nome` = @p5, `Preco` = @p6
+WHERE `ProdutoId` = @p7;
+SELECT ROW_COUNT();
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+WHERE `p`.`ProdutoId` = @__id_0
+LIMIT 1
+Information: 20101 - Executed DbCommand (199ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET AUTOCOMMIT = 1;
+DELETE FROM `Produtos`
+WHERE `ProdutoId` = @p0;
+SELECT ROW_COUNT();
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (74ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (13ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (16ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (15ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (23ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (22ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (13ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (13ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (16ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`Descricao`, `p`.`Estoque`, `p`.`ImagemUrl`, `p`.`Nome`, `p`.`Preco`
+FROM `Produtos` AS `p`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 14 - Now listening on: https://localhost:7113
+Information: 14 - Now listening on: http://localhost:5226
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\Repos\APICatalogo\APICatalogo
+Information: 20101 - Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`ImagemUrl`, `c`.`Nome`
+FROM `Categorias` AS `c`
