@@ -20,6 +20,10 @@
             AddRange(items);
         }
 
+        // -------------------------------------------------- OBS --------------------------------------------------
+        // Esse arquivo era utilizado anteriormente para fazer a paginação quando código ainda era síncrono, mas com a mudança
+        // para assíncrono, acabou deixando de ser utilizado e passou a ser usado o IPagedList do pacote X.PagedList. Mas deixarei
+        // o arquivo para fins de estudo e consultas futuras.
         public static PagedList<T> ToPagedList(IQueryable<T> source, int pageNumber, int pageSize)
         {
             var count = source.Count();

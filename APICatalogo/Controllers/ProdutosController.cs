@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
+using X.PagedList;
 
 namespace APICatalogo.Controllers
 {
@@ -25,16 +26,16 @@ namespace APICatalogo.Controllers
         }
 
         // Método para obter os produtos paginados sem ter a necessidade de repetir códigos nos demais endpoints
-        private ActionResult<IEnumerable<ProdutoDTO>> ObterProdutos(PagedList<Produto> produtos)
+        private ActionResult<IEnumerable<ProdutoDTO>> ObterProdutos(IPagedList<Produto> produtos)
         {
             var metadata = new
             {
-                produtos.TotalCount,
+                produtos.Count,
                 produtos.PageSize,
-                produtos.CurrentPage,
-                produtos.TotalPages,
-                produtos.HasNext,
-                produtos.HasPrevious
+                produtos.PageCount,
+                produtos.TotalItemCount,
+                produtos.HasNextPage,
+                produtos.HasPreviousPage
             };
 
             Response.Headers.Append("X-Pagination", JsonConvert.SerializeObject(metadata));
@@ -45,9 +46,9 @@ namespace APICatalogo.Controllers
         }
 
         [HttpGet]
-        public ActionResult<IEnumerable<ProdutoDTO>> Get()
+        public async Task<ActionResult<IEnumerable<ProdutoDTO>>> Get()
         {
-            var produtos = _uof.ProdutoRepository.GetAll();
+            var produtos = await _uof.ProdutoRepository.GetAllAsync();
 
             if(produtos is null)
             {
@@ -60,25 +61,25 @@ namespace APICatalogo.Controllers
         }
 
         [HttpGet("pagination")]
-        public ActionResult<IEnumerable<ProdutoDTO>> GetPagination([FromQuery] ProdutosParameters produtosParameters)
+        public async Task<ActionResult<IEnumerable<ProdutoDTO>>> GetPagination([FromQuery] ProdutosParameters produtosParameters)
         {
-            var produtos = _uof.ProdutoRepository.GetProdutos(produtosParameters);
+            var produtos = await _uof.ProdutoRepository.GetProdutosAsync(produtosParameters);
 
             return ObterProdutos(produtos);
         }
 
         [HttpGet("filter/preco/pagination")]
-        public ActionResult<IEnumerable<ProdutoDTO>> GetProdutosFilterPreco([FromQuery] ProdutosFiltroPreco produtosFiltroParams)
+        public async Task<ActionResult<IEnumerable<ProdutoDTO>>> GetProdutosFilterPreco([FromQuery] ProdutosFiltroPreco produtosFiltroParams)
         {
-            var produtos = _uof.ProdutoRepository.GetProdutosFiltroPreco(produtosFiltroParams);
+            var produtos = await _uof.ProdutoRepository.GetProdutosFiltroPrecoAsync(produtosFiltroParams);
 
             return ObterProdutos(produtos);
         }
 
         [HttpGet("porCategoria/{id:int}")]
-        public ActionResult<IEnumerable<ProdutoDTO>> GetProdutosPorCategoria(int id)
+        public async Task<ActionResult<IEnumerable<ProdutoDTO>>> GetProdutosPorCategoria(int id)
         {
-            var produtos = _uof.ProdutoRepository.GetProdutosPorCategoria(id);
+            var produtos = await _uof.ProdutoRepository.GetProdutosPorCategoriaAsync(id);
 
             if (produtos is null)
             {
@@ -90,17 +91,17 @@ namespace APICatalogo.Controllers
         }
 
         [HttpGet("filter/nome/pagination")]
-        public ActionResult <IEnumerable<ProdutoDTO>> GetProdutosPorNome([FromQuery] ProdutosFiltroNome produtosParams)
+        public async Task<ActionResult<IEnumerable<ProdutoDTO>>> GetProdutosPorNome([FromQuery] ProdutosFiltroNome produtosParams)
         {
-            var produtos = _uof.ProdutoRepository.GetProdutosPorNome(produtosParams);
+            var produtos = await _uof.ProdutoRepository.GetProdutosPorNomeAsync(produtosParams);
 
             return ObterProdutos(produtos);
         }
 
         [HttpGet("{id:int}", Name="ObterProduto")]
-        public ActionResult<ProdutoDTO> Get(int id)
+        public async Task<ActionResult<ProdutoDTO>> Get(int id)
         {
-            var produto = _uof.ProdutoRepository.Get(p => p.ProdutoId == id);
+            var produto = await _uof.ProdutoRepository.GetAsync(p => p.ProdutoId == id);
 
             if(produto is null)
             {
@@ -113,7 +114,7 @@ namespace APICatalogo.Controllers
         }
 
         [HttpPost]
-        public ActionResult<ProdutoDTO> Post(ProdutoDTO produtoDto)
+        public async Task<ActionResult<ProdutoDTO>> Post(ProdutoDTO produtoDto)
         {
             if(produtoDto is null)
             {
@@ -123,7 +124,7 @@ namespace APICatalogo.Controllers
             var produto = _mapper.Map<Produto>(produtoDto);
 
             var novoProduto = _uof.ProdutoRepository.Create(produto);
-            _uof.Commit();
+            await _uof.CommitAsync();
 
             var novoProdutoDto = _mapper.Map<ProdutoDTO>(novoProduto); 
 
@@ -131,7 +132,7 @@ namespace APICatalogo.Controllers
         }
 
         [HttpPut("{id:int}")]
-        public ActionResult<ProdutoDTO> Put(int id, ProdutoDTO produtoDto)
+        public async Task<ActionResult<ProdutoDTO>> Put(int id, ProdutoDTO produtoDto)
         {
 
             if(id != produtoDto.ProdutoId)
@@ -142,7 +143,7 @@ namespace APICatalogo.Controllers
             var produto = _mapper.Map<Produto>(produtoDto);
 
             var produtoAtualizado = _uof.ProdutoRepository.Update(produto);
-            _uof.Commit();
+            await _uof.CommitAsync();
 
             var rodutoAtualizadoDto = _mapper.Map<ProdutoDTO>(produtoAtualizado);
 
@@ -150,9 +151,9 @@ namespace APICatalogo.Controllers
         }
 
         [HttpDelete("{id:int}")]
-        public ActionResult<ProdutoDTO> Delete(int id)
+        public async Task<ActionResult<ProdutoDTO>> Delete(int id)
         {
-            var produto = _uof.ProdutoRepository.Get(p => p.ProdutoId == id);
+            var produto = await _uof.ProdutoRepository.GetAsync(p => p.ProdutoId == id);
 
             if(produto is null)
             {
@@ -160,7 +161,7 @@ namespace APICatalogo.Controllers
             }
 
             var produtoExcluido = _uof.ProdutoRepository.Delete(produto);
-            _uof.Commit();
+            await _uof.CommitAsync();
 
             var produtoExcluidoDto = _mapper.Map<ProdutoDTO>(produtoExcluido);
 
