@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\Repos\\APICatalogo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D5C94EF7-2B8A-47B9-B959-306EC7F9380A}|APICatalogo\\APICatalogo.csproj|d:\\repos\\apicatalogo\\apicatalogo\\pagination\\querystringparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5C94EF7-2B8A-47B9-B959-306EC7F9380A}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\pagination\\querystringparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D5C94EF7-2B8A-47B9-B959-306EC7F9380A}|APICatalogo\\APICatalogo.csproj|d:\\repos\\apicatalogo\\apicatalogo\\repositories\\jwtauth\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5C94EF7-2B8A-47B9-B959-306EC7F9380A}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\repositories\\jwtauth\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "QueryStringParameters.cs",
-              "DocumentMoniker": "D:\\Repos\\APICatalogo\\APICatalogo\\Pagination\\QueryStringParameters.cs",
-              "RelativeDocumentMoniker": "APICatalogo\\Pagination\\QueryStringParameters.cs",
-              "ToolTip": "D:\\Repos\\APICatalogo\\APICatalogo\\Pagination\\QueryStringParameters.cs",
-              "RelativeToolTip": "APICatalogo\\Pagination\\QueryStringParameters.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "D:\\Repos\\APICatalogo\\APICatalogo\\Repositories\\JWTAuth\\ITokenService.cs",
+              "RelativeDocumentMoniker": "APICatalogo\\Repositories\\JWTAuth\\ITokenService.cs",
+              "ToolTip": "D:\\Repos\\APICatalogo\\APICatalogo\\Repositories\\JWTAuth\\ITokenService.cs*",
+              "RelativeToolTip": "APICatalogo\\Repositories\\JWTAuth\\ITokenService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T19:39:11.426Z",
+              "WhenOpened": "2025-07-10T18:26:35.464Z",
               "EditorCaption": ""
             }
           ]
