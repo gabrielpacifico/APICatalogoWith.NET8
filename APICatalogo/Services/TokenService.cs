@@ -12,12 +12,12 @@ namespace APICatalogo.Services
         {
             var key = _config.GetSection("JWT").GetValue<string>("SecretKey") ??
                 throw new InvalidOperationException("Invalid secret key");
+            
+            var privateKey = Encoding.UTF8.GetBytes(key);
 
             var getExpireToken = _config.GetSection("JWT").GetValue<double>("TokenValidityInMinutes");
             var getAudience = _config.GetSection("JWT").GetValue<string>("ValidAudience");
             var getIssuer = _config.GetSection("JWT").GetValue<string>("ValidIssuer");
-
-            var privateKey = Encoding.UTF8.GetBytes(key);
 
             var signingCredentials = new SigningCredentials(new SymmetricSecurityKey(privateKey), SecurityAlgorithms.HmacSha256Signature);
 

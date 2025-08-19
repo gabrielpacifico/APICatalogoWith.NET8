@@ -4,6 +4,7 @@ using APICatalogo.Extensions;
 using APICatalogo.Logging;
 using APICatalogo.Models;
 using APICatalogo.Repositories;
+using APICatalogo.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -33,7 +34,6 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddAuthorization();
-builder.Services.AddAuthentication("Bearer").AddJwtBearer();
 
 var secretKey = builder.Configuration["JWT:SecretKey"] ?? throw new ArgumentException("Invalid Secret Key!");
 
@@ -64,6 +64,7 @@ builder.Services.AddScoped<IProdutoRepository, ProdutoRepository>();
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddAutoMapper(typeof(DTOMappingProfile));
+builder.Services.AddScoped<ITokenService, TokenService>();
 
 string? mySqlConnection = builder.Configuration.GetConnectionString("ConnectionDb");
 

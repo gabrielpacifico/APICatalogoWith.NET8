@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Repos\\APICatalogo\\",
+  "WorkspaceRootPath": "C:\\Users\\Gabriel1\\source\\repos\\APICatalogo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D5C94EF7-2B8A-47B9-B959-306EC7F9380A}|APICatalogo\\APICatalogo.csproj|d:\\repos\\apicatalogo\\apicatalogo\\repositories\\jwtauth\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5C94EF7-2B8A-47B9-B959-306EC7F9380A}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\repositories\\jwtauth\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D5C94EF7-2B8A-47B9-B959-306EC7F9380A}|APICatalogo\\APICatalogo.csproj|c:\\users\\gabriel1\\source\\repos\\apicatalogo\\apicatalogo\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5C94EF7-2B8A-47B9-B959-306EC7F9380A}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5C94EF7-2B8A-47B9-B959-306EC7F9380A}|APICatalogo\\APICatalogo.csproj|c:\\users\\gabriel1\\source\\repos\\apicatalogo\\apicatalogo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D5C94EF7-2B8A-47B9-B959-306EC7F9380A}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5C94EF7-2B8A-47B9-B959-306EC7F9380A}|APICatalogo\\APICatalogo.csproj|c:\\users\\gabriel1\\source\\repos\\apicatalogo\\apicatalogo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5C94EF7-2B8A-47B9-B959-306EC7F9380A}|APICatalogo\\APICatalogo.csproj|solutionrelative:apicatalogo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ITokenService.cs",
-              "DocumentMoniker": "D:\\Repos\\APICatalogo\\APICatalogo\\Repositories\\JWTAuth\\ITokenService.cs",
-              "RelativeDocumentMoniker": "APICatalogo\\Repositories\\JWTAuth\\ITokenService.cs",
-              "ToolTip": "D:\\Repos\\APICatalogo\\APICatalogo\\Repositories\\JWTAuth\\ITokenService.cs*",
-              "RelativeToolTip": "APICatalogo\\Repositories\\JWTAuth\\ITokenService.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Gabriel1\\source\\repos\\APICatalogo\\APICatalogo\\appsettings.json",
+              "RelativeDocumentMoniker": "APICatalogo\\appsettings.json",
+              "ToolTip": "C:\\Users\\Gabriel1\\source\\repos\\APICatalogo\\APICatalogo\\appsettings.json",
+              "RelativeToolTip": "APICatalogo\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-19T20:40:54.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel1\\source\\repos\\APICatalogo\\APICatalogo\\Program.cs",
+              "RelativeDocumentMoniker": "APICatalogo\\Program.cs",
+              "ToolTip": "C:\\Users\\Gabriel1\\source\\repos\\APICatalogo\\APICatalogo\\Program.cs",
+              "RelativeToolTip": "APICatalogo\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACkAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T18:26:35.464Z",
+              "WhenOpened": "2025-08-19T20:17:01.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel1\\source\\repos\\APICatalogo\\APICatalogo\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "APICatalogo\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Gabriel1\\source\\repos\\APICatalogo\\APICatalogo\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "APICatalogo\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAwwEkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T00:05:15.803Z",
               "EditorCaption": ""
             }
           ]
