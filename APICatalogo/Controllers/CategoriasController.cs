@@ -5,6 +5,7 @@ using APICatalogo.Models;
 using APICatalogo.Pagination;
 using APICatalogo.Repositories;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -47,6 +48,7 @@ namespace APICatalogo.Controllers
             return Ok(categoriasDto);
         }
 
+        [Authorize(Policy = "UserOnly")]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<CategoriaDTO>>> Get()
         {
@@ -61,6 +63,7 @@ namespace APICatalogo.Controllers
             return Ok(categoriasDto);
         }
 
+        [Authorize(Policy = "UserOnly")]
         [HttpGet("pagination")]
         public async Task<ActionResult<IEnumerable<CategoriaDTO>>> GetPagination([FromQuery] CategoriasParameters categoriasParameters)
         {
@@ -83,6 +86,7 @@ namespace APICatalogo.Controllers
             return Ok(categoriaDto);
         }
 
+        [Authorize(Policy = "UserOnly")]
         [HttpGet("filter/nome/pagination")]
         public async Task<ActionResult<IEnumerable<CategoriaDTO>>> GetCategoriasPorNome([FromQuery] CategoriasFiltroNome categoriasParams)
         {
@@ -91,6 +95,7 @@ namespace APICatalogo.Controllers
             return ObterCategorias(categorias);
         }
 
+        [Authorize(Policy = "UserOnly")]
         [HttpPost]
         public async Task<ActionResult<CategoriaDTO>> Post(CategoriaDTO categoriaDto)
         {
@@ -109,6 +114,7 @@ namespace APICatalogo.Controllers
             return new CreatedAtRouteResult("ObterCategoria", new { id = novaCategoriaDto.CategoriaId }, novaCategoriaDto);
         }
 
+        [Authorize(Policy = "UserOnly")]
         [HttpPut("{id:int}")]
         public async Task<ActionResult<CategoriaDTO>> Put(int id, CategoriaDTO categoriaDto)
         {
@@ -126,6 +132,8 @@ namespace APICatalogo.Controllers
             return Ok(categoriaAtualizadaDto);
         }
 
+        
+        [Authorize(Policy = "AdminOnly")]
         [HttpDelete("{id:int}")]
         public async Task<ActionResult<CategoriaDTO>> Delete(int id)
         {

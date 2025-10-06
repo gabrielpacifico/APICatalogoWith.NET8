@@ -4,6 +4,7 @@ using APICatalogo.Models;
 using APICatalogo.Pagination;
 using APICatalogo.Repositories;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -45,6 +46,7 @@ namespace APICatalogo.Controllers
             return Ok(produtosDto);
         }
 
+        [Authorize(Policy = "UserOnly")]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ProdutoDTO>>> Get()
         {
@@ -60,6 +62,7 @@ namespace APICatalogo.Controllers
             return Ok(produtosDto);
         }
 
+        [Authorize(Policy = "UserOnly")]
         [HttpGet("pagination")]
         public async Task<ActionResult<IEnumerable<ProdutoDTO>>> GetPagination([FromQuery] ProdutosParameters produtosParameters)
         {
@@ -76,6 +79,7 @@ namespace APICatalogo.Controllers
             return ObterProdutos(produtos);
         }
 
+        [Authorize(Policy = "UserOnly")]
         [HttpGet("porCategoria/{id:int}")]
         public async Task<ActionResult<IEnumerable<ProdutoDTO>>> GetProdutosPorCategoria(int id)
         {
@@ -90,6 +94,7 @@ namespace APICatalogo.Controllers
             return Ok(produtosDto);
         }
 
+        [Authorize(Policy = "UserOnly")]
         [HttpGet("filter/nome/pagination")]
         public async Task<ActionResult<IEnumerable<ProdutoDTO>>> GetProdutosPorNome([FromQuery] ProdutosFiltroNome produtosParams)
         {
@@ -113,6 +118,7 @@ namespace APICatalogo.Controllers
             return Ok(produtoDto);
         }
 
+        [Authorize(Policy = "UserOnly")]
         [HttpPost]
         public async Task<ActionResult<ProdutoDTO>> Post(ProdutoDTO produtoDto)
         {
@@ -131,6 +137,7 @@ namespace APICatalogo.Controllers
             return new CreatedAtRouteResult("ObterProduto", new { id = novoProdutoDto.ProdutoId }, novoProdutoDto);
         }
 
+        [Authorize(Policy = "UserOnly")]
         [HttpPut("{id:int}")]
         public async Task<ActionResult<ProdutoDTO>> Put(int id, ProdutoDTO produtoDto)
         {
@@ -150,6 +157,7 @@ namespace APICatalogo.Controllers
             return Ok(rodutoAtualizadoDto);
         }
 
+        [Authorize(Policy = "AdminOnly")]
         [HttpDelete("{id:int}")]
         public async Task<ActionResult<ProdutoDTO>> Delete(int id)
         {
