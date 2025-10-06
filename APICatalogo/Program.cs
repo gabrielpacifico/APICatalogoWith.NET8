@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using System.Text;
 using System.Text.Json.Serialization;
 
@@ -31,9 +32,43 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>().
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "APICatalogo", Version = "v1" });
 
-builder.Services.AddAuthorization();
+    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
+    {
+        Name = "Authorization",
+        Type = SecuritySchemeType.ApiKey,
+        Scheme = "Bearer",
+        BearerFormat = "JWT",
+        In = ParameterLocation.Header,
+        Description = "Bearer JWT"
+    });
+
+    c.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            new string[] {}
+        }
+    });
+});
+
+
+string? mySqlConnection = builder.Configuration.GetConnectionString("ConnectionDb");
+
+builder.Services.AddDbContext<APIDbContext>(options =>
+        options.UseMySql(mySqlConnection,
+        ServerVersion.AutoDetect(mySqlConnection)));
+
 
 var secretKey = builder.Configuration["JWT:SecretKey"] ?? throw new ArgumentException("Invalid Secret Key!");
 
@@ -59,18 +94,23 @@ builder.Services.AddAuthentication(opt =>
 
 });
 
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("AdminOnly", policy => policy.RequireRole("Admin"));
+    options.AddPolicy("SuperAdminOnly", policy => policy.RequireRole("Admin").RequireClaim("id", "gabriel"));
+    options.AddPolicy("UserOnly", policy => policy.RequireRole("Usuario"));
+
+    options.AddPolicy("ExclusiveOnly", policy => policy.RequireAssertion(context => 
+                      context.User.HasClaim(claim => claim.Type == "id" && claim.Value == "gabriel") ||
+                                            context.User.IsInRole("SuperAdmin")));
+});
+
 builder.Services.AddScoped<ICategoriaRepository, CategoriaRepository>();
 builder.Services.AddScoped<IProdutoRepository, ProdutoRepository>();
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddAutoMapper(typeof(DTOMappingProfile));
 builder.Services.AddScoped<ITokenService, TokenService>();
-
-string? mySqlConnection = builder.Configuration.GetConnectionString("ConnectionDb");
-
-builder.Services.AddDbContext<APIDbContext>(options =>
-        options.UseMySql(mySqlConnection,
-        ServerVersion.AutoDetect(mySqlConnection)));
 
 builder.Logging.AddProvider(new CustomLoggerProvider(new CustomLoggerProviderConfiguration
 {
